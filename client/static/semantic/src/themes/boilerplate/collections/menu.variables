@@ -1,0 +1,24 @@
+/*******************************
+             Menu
+*******************************/
+/*-------------------
+      Extras by me
+--------------------*/
+
+@textColor: #313541;
+
+/*-------------------
+      Collection
+--------------------*/
+
+/* Menu */
+@border: 0px;
+@borderRadius: 0;
+@background: #FFEA03;
+@fontWeight: 200;
+@borderWidth: 0px;
+@boxShadow: none;
+@minHeight: (@itemVerticalPadding * 2) + 3em;
+
+/* Menu Item */
+@itemFontWeight: 400;
