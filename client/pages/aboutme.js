@@ -135,7 +135,7 @@ class Aboutme extends React.Component { // eslint-disable-line react/prefer-stat
                             <ComponentTitle hasTextAlignCenter children={'01. history'} />
                           </Animations>
                         </div>
-                        <Text children="In the most part a self-taught Developer with over 6 years of coding experience. Grew up with the dream to become a developer. Studied Computer Science and Engineering. Now I’m based in Berlin, Germany, working for Vimcar GmbH and enjoying the life in the city." />
+                        <Text children="Grew up with the dream to become a developer. In the most part a self-taught Developer with over 6 years of coding experience. Studied Computer Science and Engineering. Now I’m based in Berlin, Germany, working for Vimcar GmbH and enjoying the life in the city." />
                       </Grid.Column>
                     </Grid.Row>
                   </Grid>
@@ -257,27 +257,6 @@ class Aboutme extends React.Component { // eslint-disable-line react/prefer-stat
               </div>
             </ParallaxEffect>
             <ComponentDivider />
-
-          </SingleDesktop>
-
-
-          <SingleDesktop hasFullScreen={false}>
-            <Grid centered container>
-              <Grid.Row textAlign="center" columns="equal">
-                <Grid.Column>
-                  <div style={sectionStyle}>
-                    <Animations classes="fadeInLeft">
-                      <div className="paragraph-s">
-                        Find out more about my <span
-                        onClick={this.handleClick.bind(this, 'work')}
-                        className="invert-on-hover anchor-link"
-                      >work</span>
-                      </div>
-                    </Animations>
-                  </div>
-                </Grid.Column>
-              </Grid.Row>
-            </Grid>
           </SingleDesktop>
         </div>
       </Layout>

@@ -89,24 +89,6 @@ class NavigationMenu extends React.Component { // eslint-disable-line react/pref
             </Item>
 
             <Menu.Item
-              onClick={this.handleClick.bind(this, 'start')}
-              className={`primary-menu-item-s right mouse-on-link-hover-footer`}
-              name='start'
-              active={activeItem === 'start'}
-            >
-              START
-            </Menu.Item>
-
-            <Menu.Item
-              onClick={this.handleClick.bind(this, 'work')}
-              className={`primary-menu-item-s mouse-on-link-hover-footer`}
-              name='work'
-              active={activeItem === 'work'}
-            >
-              WORK
-            </Menu.Item>
-
-            <Menu.Item
               className={`primary-menu-item-s mouse-on-link-hover-footer`}
               name='aboutme'
               active={activeItem === 'aboutme'}

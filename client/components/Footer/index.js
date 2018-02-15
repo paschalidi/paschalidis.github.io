@@ -111,24 +111,6 @@ class Footer extends React.Component { // eslint-disable-line react/prefer-state
                 <Grid.Row columns="equal">
                   <Grid.Column width={2}>
                     <div
-                      onClick={this.handleClick.bind(this, '')}
-                      style={ColumnStyle}
-                      className="mouse-on-link-hover invert-on-hover--footer color-white"
-                    >
-                      <ComponentParagraph hasTextVerySm hasTextAlignCenter children="PROFILE" />
-                    </div>
-                  </Grid.Column>
-                  <Grid.Column width={2}>
-                    <div
-                      onClick={this.handleClick.bind(this, 'work')}
-                      style={ColumnStyle}
-                      className="mouse-on-link-hover invert-on-hover--footer color-white"
-                    >
-                      <ComponentParagraph hasTextVerySm hasTextAlignCenter children="WORK" />
-                    </div>
-                  </Grid.Column>
-                  <Grid.Column width={2}>
-                    <div
                       onClick={this.handleClick.bind(this, 'aboutme')}
                       style={ColumnStyle}
                       className="mouse-on-link-hover invert-on-hover--footer color-white"
@@ -147,14 +129,6 @@ class Footer extends React.Component { // eslint-disable-line react/prefer-state
                         hasTextAlignCenter
                         children="GET IN TOUCH"
                       />
-                    </div>
-                  </Grid.Column>
-                  <Grid.Column width={2}>
-                    <div
-                      style={ColumnStyle}
-                      className="mouse-on-link-hover invert-on-hover--footer color-white"
-                    >
-                      <ComponentParagraph hasTextVerySm hasTextAlignCenter children="LEGAL" />
                     </div>
                   </Grid.Column>
                 </Grid.Row>
