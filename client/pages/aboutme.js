@@ -111,7 +111,7 @@ class Aboutme extends React.Component { // eslint-disable-line react/prefer-stat
                       <Animations>
                         <ComponentTitle hasTextAlignCenter children={'hello'} />
                       </Animations>
-                      <Text children="I am Christos Paschalidis, a web developer" />
+                      <Text children="<b>I am Christos Paschalidis, a web developer.</b>" />
                     </div>
                   </Grid.Column>
                 </Grid.Row>
@@ -135,7 +135,7 @@ class Aboutme extends React.Component { // eslint-disable-line react/prefer-stat
                             <ComponentTitle hasTextAlignCenter children={'01. history'} />
                           </Animations>
                         </div>
-                        <Text children="Grew up with the dream to become a developer. In the most part a self-taught Developer with over 6 years of coding experience. Studied Computer Science and Engineering. Now I’m based in Berlin, Germany, working for Vimcar GmbH and enjoying the life in the city." />
+                        <Text children="<b>Grew up with the dream to become a developer.</b></br> In the most part a self-taught Developer with over 6 years of coding experience. Studied Computer Science and Engineering. Currently Berlin based, Germany, working for Vimcar GmbH and enjoying the life in the city." />
                       </Grid.Column>
                     </Grid.Row>
                   </Grid>
@@ -162,7 +162,7 @@ class Aboutme extends React.Component { // eslint-disable-line react/prefer-stat
                           />
                         </Animations>
                         <div className="paragraph-padding no-shadow">
-                          <Text children="I create and build websites to communicate a feeling of joy and comfort that shall invite the user to come back. For me, that means that not only graphical work, but also the frontend development like JS & css, HTML, and a CMS (backend, i know) are part of my field of activity. The development section is really important to me, because I thereby constantly improve my skills and stay up-to-date with new methods and technology." />
+                          <Text children="<b>I create and build websites to</b></br> communicate a feeling of joy and comfort that shall invite the user to come back. For me, that means that not only graphical work, but also the frontend development like JS & css, HTML, and a CMS (backend, i know) are part of my field of activity. The development section is really important to me, because I thereby constantly improve my skills and stay up-to-date with new methods and technology." />
                         </div>
                       </div>
                     </Grid.Column>
@@ -257,6 +257,7 @@ class Aboutme extends React.Component { // eslint-disable-line react/prefer-stat
               </div>
             </ParallaxEffect>
             <ComponentDivider />
+
           </SingleDesktop>
         </div>
       </Layout>
